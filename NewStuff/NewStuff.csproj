@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\AddCustomer.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="Events\CustomerAdded.cs" />
     <Compile Include="Events\CustomerChangedName.cs" />
     <Compile Include="Events\CustomerMoved.cs" />

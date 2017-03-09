@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9534dc5d-2677-4ada-a9cf-eec0d59dbc71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewStuff/Events/CustomerAdded.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewStuff/Events/CustomerChangedName.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewStuff/Events/CustomerMoved.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewStuff/Projection.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewStuff/Commands/AddCustomer.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NewStuff/Customer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.NewStuff/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.NewStuff/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewStuff/NewStuff.csproj" afterPath="$PROJECT_DIR$/NewStuff/NewStuff.csproj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,16 +17,49 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewStuff/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+              <caret line="11" column="80" lean-forward="false" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
               <folding>
                 <marker date="1489055905271" expanded="true" signature="6:36" ph="..." />
                 <marker date="1489055905271" expanded="true" signature="56:512" ph="{...}" />
                 <marker date="1489055905271" expanded="true" signature="85:510" ph="{...}" />
                 <marker date="1489055905271" expanded="true" signature="138:504" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NewStuff/Customer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <marker date="1489056477308" expanded="true" signature="6:61" ph="..." />
+                <marker date="1489056477308" expanded="true" signature="81:910" ph="{...}" />
+                <marker date="1489056477308" expanded="true" signature="109:908" ph="{...}" />
+                <marker date="1489056477308" expanded="true" signature="212:253" ph="{...}" />
+                <marker date="1489056477308" expanded="true" signature="297:542" ph="{...}" />
+                <marker date="1489056477308" expanded="true" signature="336:532" ph="{...}" />
+                <marker date="1489056477308" expanded="true" signature="584:676" ph="{...}" />
+                <marker date="1489056477308" expanded="true" signature="717:902" ph="{...}" />
+                <marker date="1489056477308" expanded="true" signature="755:892" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddCustomer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewStuff/Commands/AddCustomer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <folding>
+                <marker date="1489056477316" expanded="true" signature="27:198" ph="{...}" />
+                <marker date="1489056477316" expanded="true" signature="58:196" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -85,6 +118,8 @@
         <option value="$PROJECT_DIR$/NewStuff/Events/CustomerChangedName.cs" />
         <option value="$PROJECT_DIR$/NewStuff/Projection.cs" />
         <option value="$PROJECT_DIR$/NewStuff/Program.cs" />
+        <option value="$PROJECT_DIR$/NewStuff/Commands/AddCustomer.cs" />
+        <option value="$PROJECT_DIR$/NewStuff/Customer.cs" />
       </list>
     </option>
   </component>
@@ -125,6 +160,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NewStuff" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewStuff (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewStuff" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Commands" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -189,12 +242,20 @@
       <option name="presentableId" value="Default" />
       <updated>1489055269145</updated>
       <workItem from="1489055271077" duration="16000" />
-      <workItem from="1489055334594" duration="582000" />
+      <workItem from="1489055334594" duration="1142000" />
     </task>
+    <task id="LOCAL-00001" summary="Projections with pattern matching">
+      <created>1489055934309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489055934309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="598000" />
+    <option name="totallyTimeSpent" value="1158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,6 +296,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projections with pattern matching" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projections with pattern matching" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -289,12 +354,41 @@
     <entry file="file://$PROJECT_DIR$/NewStuff/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+          <caret line="11" column="80" lean-forward="false" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
           <folding>
             <marker date="1489055905271" expanded="true" signature="6:36" ph="..." />
             <marker date="1489055905271" expanded="true" signature="56:512" ph="{...}" />
             <marker date="1489055905271" expanded="true" signature="85:510" ph="{...}" />
             <marker date="1489055905271" expanded="true" signature="138:504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewStuff/Commands/AddCustomer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <marker date="1489056477316" expanded="true" signature="27:198" ph="{...}" />
+            <marker date="1489056477316" expanded="true" signature="58:196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewStuff/Customer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <marker date="1489056477308" expanded="true" signature="6:61" ph="..." />
+            <marker date="1489056477308" expanded="true" signature="81:910" ph="{...}" />
+            <marker date="1489056477308" expanded="true" signature="109:908" ph="{...}" />
+            <marker date="1489056477308" expanded="true" signature="212:253" ph="{...}" />
+            <marker date="1489056477308" expanded="true" signature="297:542" ph="{...}" />
+            <marker date="1489056477308" expanded="true" signature="336:532" ph="{...}" />
+            <marker date="1489056477308" expanded="true" signature="584:676" ph="{...}" />
+            <marker date="1489056477308" expanded="true" signature="717:902" ph="{...}" />
+            <marker date="1489056477308" expanded="true" signature="755:892" ph="{...}" />
           </folding>
         </state>
       </provider>
