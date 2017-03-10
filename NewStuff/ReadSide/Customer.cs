@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace NewStuff.Events
+namespace NewStuff.ReadSide
 {
-    public class CustomerAdded : CustomerEvent
+    public class Customer
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

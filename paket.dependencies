@@ -1,0 +1,6 @@
+source https://api.nuget.org/v3/index.json
+
+nuget Marten
+nuget EventStore.Client
+nuget MassTransit
+nuget MassTransit.RabbitMq
