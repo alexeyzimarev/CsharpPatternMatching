@@ -14,5 +14,5 @@ The code for applying aggregate events and for handling projections is quite all
 This is a demo code and it is not production ready.
 
 ### Further
-You can check the lab repository for the Practical Event-Soucring with C# hands-on session that me 
+You can check the [lab repository](https://github.com/UbiquitousAS/WorkshopEventSourcing) for the Practical Event-Soucring with C# hands-on session that me 
 and [@ragingkore](https://twitter.com/ragingkore?lang=en) delivered on DDD Europe 2018.
